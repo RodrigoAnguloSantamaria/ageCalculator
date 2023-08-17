@@ -1,0 +1,32 @@
+form{
+display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    font-size: larger;
+    height: 50px;
+    & input{
+        margin-left: 2rem;
+        height: 35px;
+       
+    
+    }
+    & button{
+        height: 35px;
+        display: flex;
+        align-items: center;
+    }
+   
+    & p{
+        font-size: medium;
+        color: red;
+    }
+}
+
+@media (max-width:590px){
+    form{
+        flex-direction: column;
+        
+    }
+}

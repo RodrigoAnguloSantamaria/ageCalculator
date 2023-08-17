@@ -1,0 +1,10 @@
+h5{
+    background-color: rgb(166, 88, 240);
+    border-radius: 4rem;
+    font-size: larger;
+}
+img{
+    width: 150px;
+    height: auto;
+    background-color: transparent;
+}
